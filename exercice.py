@@ -24,6 +24,7 @@ def to_degrees(angle_rads: float) -> tuple:
     return 180/math.pi*angle_rads, (180/math.pi*angle_rads)*60, ((180/math.pi*angle_rads)*3600
 
 
+
 def to_celsius(temperature: float) -> float:
     return 0.0
 
